@@ -13,3 +13,6 @@ output "bastion_sg_id" {
 output "ansible_sg_id" {
     value = aws_security_group.security.id
 }
+output "app_lb_sg_id" {
+    value = aws_security_group.security.id
+}
