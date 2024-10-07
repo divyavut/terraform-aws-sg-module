@@ -19,3 +19,7 @@ output "app_lb_sg_id" {
 output "web_alb_sg_id" {
     value = aws_security_group.security.id
 }
+
+output "vpn_sg_id" {
+    value = aws_security_group.security.id
+}
